@@ -156,7 +156,7 @@ let licenseData = [
 
 let testObj = licenseData[5]['licenseType'];
 
-console.log(`known test object ${testObj}`);
+//console.log(`known test object ${testObj}`);
 
 // console.log(badgeData.length);
 
@@ -165,10 +165,10 @@ console.log(`known test object ${testObj}`);
 //     console.log(badgeData[i]['licenseType']);
 
 // }
-console.log('--should match below--');
+// console.log('--should match below--');
 
 licenseData.forEach(element => {
-    if (element['licenseType'] === testObj) {console.log(element['licenseType']);}
+ //   if (element['licenseType'] === testObj) {console.log(element['licenseType']);}
 });
 
 module.exports = licenseData;
