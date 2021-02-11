@@ -1,1 +1,2 @@
-console.log("Me so node!");
+let badgeData = require('./src/modules/badges.js');
+
