@@ -126,3 +126,5 @@ let getQuestions = {
     name: 'questions',
     message: 'What email should questions be sent to?' 
 }
+
+module.exports = questions;
