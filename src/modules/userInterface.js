@@ -36,8 +36,8 @@ let questionsExample = [
     // },
   ];
 
-let cliPrompt = inquirer.prompt(questions).then((answers) => {
-    console.log(JSON.stringify(answers, null, '  '));
-  });
+// let cliPrompt = function inquirer.prompt(questions).then((answers) => {
+//     console.log(JSON.stringify(answers, null, '  '));
+//   });
 
-  module.exports = cliPrompt;
+//   module.exports = cliPrompt;

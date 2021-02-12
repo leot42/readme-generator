@@ -50,12 +50,12 @@ ${license.body}
 `;
 
 
-let questions = [
+let questionSet = [
 
     {
         type: 'input',
         name: 'gitHubUserName',
-        message: 'What would you like the project title to be?'
+        message: 'What is the GitHub user name to attach to the project?'
     },
 
     {
@@ -67,7 +67,7 @@ let questions = [
     {
         type: 'editor',
         name: 'projectDescription',
-        message: 'How would you describe ypur project?'
+        message: 'How would you describe your project?'
     },
 
     {
@@ -77,7 +77,7 @@ let questions = [
     },
 
     {
-        type: 'input',
+        type: 'confirm',
         name: 'tableOfContents',
         message: 'Do you want the readme to have a table of contents?'
     },
@@ -102,7 +102,7 @@ let questions = [
     },
 
     {
-        type: 'input',
+        type: 'editor',
         name: 'contributions',
         message: 'What are your contribution guidelines?'
     },
@@ -124,5 +124,5 @@ let questions = [
         message: 'What email should questions be sent to?'
     }
 ]
-console.log(questions);
-module.exports = questions;
+// console.log(questionSet);
+module.exports = questionSet;
