@@ -1,11 +1,25 @@
-//testing validation of function objects
-function IsAtLeast2ChoicesSelected (answer) {
-    if (answer.length < 2) {
-      return 'You must choose at least two topping.';
-    }
+// test deconstructing into template from input promise
+// !syntax may be wrong!
+var testTemplate = {
 
-    return true;
+  data {}
+
+  templateText = `
+  toppings test  ${toppings}
+  first name test ${first_name}
+  last name test ${last_name}
+  fav color test ${fav_color}
+  phone num test ${phone}
+  `};
+
+//testing validation of function objects
+function IsAtLeast2ChoicesSelected(answer) {
+  if (answer.length < 2) {
+    return 'You must choose at least two topping.';
   }
+
+  return true;
+}
 
 
 /**
@@ -68,30 +82,34 @@ inquirer
       validate: (answer) => IsAtLeast2ChoicesSelected(answer),
     },
     {
-        type: 'input',
-        name: 'first_name',
-        message: "What's your first name",
+      type: 'input',
+      name: 'first_name',
+      message: "What's your first name",
+    },
+    {
+      type: 'input',
+      name: 'last_name',
+      message: "What's your last name",
+      default: function () {
+        return 'Doe';
       },
-      {
-        type: 'input',
-        name: 'last_name',
-        message: "What's your last name",
-        default: function () {
-          return 'Doe';
-        },
-      },
-      {
-        type: 'input',
-        name: 'fav_color',
-        message: "What's your favorite color",
-      },
-      {
-        type: 'input',
-        name: 'phone',
-        message: "What's your phone number",
-      },
+    },
+    {
+      type: 'input',
+      name: 'fav_color',
+      message: "What's your favorite color",
+    },
+    {
+      type: 'input',
+      name: 'phone',
+      message: "What's your phone number",
+    },
   ])
   .then((answers) => {
-    console.log(answers.first_name);
+    let tanswers = answers;
+    // console.log("answers----- " + JSON.stringify(answers, null, '  '));
+    // console.log("test----- " +JSON.stringify(tanswers, null, '  '));
     // console.log(JSON.stringify(answers, null, '  '));
+    testTemplate = answers;
+    console.log(testTemplate);
   });

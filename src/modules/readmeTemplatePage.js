@@ -46,5 +46,5 @@ ${credits.body}
 
 ## ${license.title}
 
-${license.body}
+${licenseDescription}
 `;
