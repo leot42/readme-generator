@@ -7,6 +7,7 @@ function IsAtLeast2ChoicesSelected (answer) {
     return true;
   }
 
+
 /**
  * Checkbox list examples
  */
@@ -91,5 +92,6 @@ inquirer
       },
   ])
   .then((answers) => {
-    console.log(JSON.stringify(answers, null, '  '));
+    console.log(answers.first_name);
+    // console.log(JSON.stringify(answers, null, '  '));
   });

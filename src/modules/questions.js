@@ -1,6 +1,7 @@
 // validate that user input is not an empty answer or just spaces
 function IsAnswerGivenNotEmpty (userInput) {
-    if (userInput == "true") return true;
+  // console.log(`\nuser input is "${userInput}" and is empty evaluated to ${!(userInput === "")}`);
+    if (!(userInput.trim() === "")) return true;
     else return "You must give an answer.";
 }
 
@@ -10,7 +11,8 @@ let questionSet = [
     {
         type: 'input',
         name: 'gitHubUserName',
-        message: 'What is the GitHub user name to attach to the project? (Required)'
+        message: 'What is the GitHub user name to attach to the project? (Required)',
+        validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
 
     {
