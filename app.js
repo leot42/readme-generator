@@ -1,20 +1,31 @@
 let badgeData = require('./src/modules/badges.js');
-let inquirer = require('inquirer');
+const inquirer = require('inquirer');
 const questionSet = require('./src/modules/questions');
 let userInterface = require('./src/modules/userInterface');
 const ReadMeTemplate = require('./src/modules/readmeTemplatePage');
+const fs = require('fs');
+const fileDestination = './GeneratedFiles';
+const generatedFileTypeSuffix = ".md";
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Given a file name and data write to folderDestination of type generatedFileTypeSuffix
+function writeToFile(fileName, data) {
+
+  let filePath = `${fileDestination}/${fileName}${generatedFileTypeSuffix}`;
+  fs.writeFile(filePath, data, function (err) {
+    if (err) throw err;
+    console.log('Your readme was created in the GeneratedFiles folder.');
+  });
+}
 
 // TODO: Create a function to initialize app
-function init(questionSet) {
+function init(questionSet, fileDestination) {
   inquirer.prompt(questionSet).then((answers) => {
- //test   console.log(JSON.stringify(answers, null, '  '));
-    let text = ReadMeTemplate(answers);
+    generatedText = ReadMeTemplate(answers);
+
+    writeToFile(fileDestination,generatedText);
+
   });
 
 }
-
 // Function call to initialize app
-init(questionSet);
+init(questionSet, fileDestination);

@@ -1,3 +1,5 @@
+let licenseData = require('./licenseInformation.json')
+
 // validate that user input is not an empty answer or just spaces
 function IsAnswerGivenNotEmpty (userInput) {
   // console.log(`\nuser input is "${userInput}" and is empty evaluated to ${!(userInput === "")}`);
