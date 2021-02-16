@@ -3,35 +3,49 @@ let data;
 let template = `
 # ${projectTitle}
 
-## ${projectTitle}
-
+## Description
 ${projectDescription}
 
-## ${featuresTitle}
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+
+
+## Features
 
 ${featuresDescription}
 
-## ${tableOfContentsTitle}
 
-${tableOfContentsDescription}
-
-## ${installationTitle}
+## Installation
 
 ${installationDescription}
 
-## ${testsTitle}
+
+## Tests
 
 ${testsDescription}
+
 
 ## ${questionsTitle}
 
 ${questionsDescription}
 
-## ${usageTitle}
+## Usage
 
 ${usageDescription}
 
-## ${creditsTitle}
+
+## Contributing
+
+${contributionsDescription}
+
+
+## Credits
+
 ${creditsDescription}
 
 ## ${licenseTitle}
