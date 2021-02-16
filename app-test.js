@@ -1,21 +1,22 @@
-// test deconstructing into template from input promise
-// !syntax may be wrong!
-var testTemplate = {
+//   test passing values later by writing as a function
+function testTemplateFunc(answerResult) {
+    let data = {"toppings": [], "first_name":"", "last_name": "", "fav_color": "", "phone": ""};
+    data = answerResult;
+        templateText = `
+        toppings test  ${data.toppings}
+        first name test ${data.first_name}
+        last name test ${data.last_name}
+        fav color test ${data.fav_color}
+        phone num test ${data.phone}
+        `;
 
-  data {}
-
-  templateText = `
-  toppings test  ${toppings}
-  first name test ${first_name}
-  last name test ${last_name}
-  fav color test ${fav_color}
-  phone num test ${phone}
-  `};
+        console.log(this.templateText);
+}
 
 //testing validation of function objects
 function IsAtLeast2ChoicesSelected(answer) {
   if (answer.length < 2) {
-    return 'You must choose at least two topping.';
+    return 'You must choose at least two toppings.';
   }
 
   return true;
@@ -106,10 +107,6 @@ inquirer
     },
   ])
   .then((answers) => {
-    let tanswers = answers;
-    // console.log("answers----- " + JSON.stringify(answers, null, '  '));
-    // console.log("test----- " +JSON.stringify(tanswers, null, '  '));
-    // console.log(JSON.stringify(answers, null, '  '));
-    testTemplate = answers;
-    console.log(testTemplate);
+
+    testTemplateFunc(answers);
   });
