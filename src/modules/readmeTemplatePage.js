@@ -1,50 +1,40 @@
-let projectTitle = { title: "", body: "", required: true };
-let projectDescription = { title: "Description", body: "", required: false };
-let features = { title: "Features", body: "", required: false };
-let tableOfContents = { title: "Table of Contents", body: "", required: false };
-let installation = { title: "Installation", body: "", required: true };
-let usage = { title: "## " + "Usage", body: "", required: true };
-let license = { title: "## " + "License", body: "", required: true };
-let contributing = { title: "## " + "Contributing", body: "", required: false };
-let credits = { title: "## " + "Contributing", body: "", required: false };
-let tests = { title: "## Tests", body: "", required: false };
-let questions = { title: "## Questions", body: "", required: false };
+let data;
 
 let template = `
-# ${projectTitle.title}
+# ${projectTitle}
 
-## ${projectDescription.title}
+## ${projectTitle}
 
-${projectDescription.body}
+${projectDescription}
 
-## ${features.title}
+## ${featuresTitle}
 
-${features.body}
+${featuresDescription}
 
-## ${tableOfContents.title}
+## ${tableOfContentsTitle}
 
-${tableOfContents.body}
+${tableOfContentsDescription}
 
-## ${installation.title}
+## ${installationTitle}
 
-${installation.body}
+${installationDescription}
 
-## ${tests.title}
+## ${testsTitle}
 
-${tests.body}
+${testsDescription}
 
-## ${questions.title}
+## ${questionsTitle}
 
-${questions.body}
+${questionsDescription}
 
-## ${usage.title}
+## ${usageTitle}
 
-${usage.body}
+${usageDescription}
 
-## ${credits.title}
-${credits.body}
+## ${creditsTitle}
+${creditsDescription}
 
-## ${license.title}
+## ${licenseTitle}
 
 ${licenseDescription}
 `;

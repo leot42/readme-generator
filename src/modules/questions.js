@@ -31,34 +31,34 @@ let questionSet = [
 
     {
         type: 'editor',
-        name: 'features',
+        name: 'featuresDescription',
         message: 'What features does your project have?'
     },
 
     {
         type: 'confirm',
-        name: 'tableOfContents',
+        name: 'tableOfContentsDescription',
         message: 'Do you want the readme to have a table of contents? (Required)',
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
 
     {
         type: 'editor',
-        name: 'installationInstructions',
+        name: 'installationInstructionDescription',
         message: 'What are your installation instructions? (Required)',
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
 
     {
         type: 'editor',
-        name: 'usageInstructions',
-        message: 'What are your useage instructions? (Required)',
+        name: 'usageInstructionsDescription',
+        message: 'What are your usage instructions? (Required)',
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
 
     {
         type: 'choice',
-        name: 'licenseType',
+        name: 'licenseTypeDescription',
         message: 'What type of license will this project use? (Required)',
         choices: [],
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
@@ -66,19 +66,19 @@ let questionSet = [
 
     {
         type: 'editor',
-        name: 'contributions',
+        name: 'contributionsDescription',
         message: 'What are your contribution guidelines? (Required)',
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
 
     {
         type: 'editor',
-        name: 'credits',
+        name: 'creditsDescription',
         message: 'Who would you like to give credit to?'
     },
     {
         type: 'editor',
-        name: 'testInstructions',
+        name: 'testInstructionDescription',
         message: 'What are your test instructions? (Required)',
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
