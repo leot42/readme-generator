@@ -44,14 +44,14 @@ let questionSet = [
 
     {
         type: 'editor',
-        name: 'installationInstructionDescription',
+        name: 'installationDescription',
         message: 'What are your installation instructions? (Required)',
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
 
     {
         type: 'editor',
-        name: 'usageInstructionsDescription',
+        name: 'usageDescription',
         message: 'What are your usage instructions? (Required)',
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
@@ -78,14 +78,14 @@ let questionSet = [
     },
     {
         type: 'editor',
-        name: 'testInstructionDescription',
+        name: 'testsDescription',
         message: 'What are your test instructions? (Required)',
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
 
     {
         type: 'input',
-        name: 'questionsForYou',
+        name: 'yourEmail',
         message: 'What email should questions be sent to? (Required)',
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     }

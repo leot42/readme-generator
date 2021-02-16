@@ -1,10 +1,10 @@
-let data;
+function generateReadMeTemplate(data) {
 
-let template = `
-# ${projectTitle}
+    let template = `
+# ${data.projectTitle}
 
 ## Description
-${projectDescription}
+${data.projectDescription}
 
 
 ## Table of Contents
@@ -17,38 +17,41 @@ ${projectDescription}
 
 ## Features
 
-${featuresDescription}
+${data.featuresDescription}
 
 
 ## Installation
 
-${installationDescription}
+${data.installationDescription}
 
 
 ## Tests
 
-${testsDescription}
+${data.testsDescription}
 
 
-## ${questionsTitle}
+## Contact Me
 
-${questionsDescription}
+${data.yourEmail}
 
 ## Usage
 
-${usageDescription}
+${data.usageDescription}
 
 
 ## Contributing
 
-${contributionsDescription}
+${data.contributionsDescription}
 
 
 ## Credits
 
-${creditsDescription}
+${data.creditsDescription}
 
-## ${licenseTitle}
+## License
 
-${licenseDescription}
+${data.licenseTypeDescription}
 `;
+return template;
+}
+module.exports = generateReadMeTemplate;
