@@ -2,7 +2,8 @@ function generateReadMeTemplate(data) {
 
     let template = `
 # ${data.projectTitle}
-
+======================
+${data.clickableBadgeIconlink}
 ## Description
 ${data.projectDescription}
 

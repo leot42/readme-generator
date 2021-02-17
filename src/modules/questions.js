@@ -1,5 +1,4 @@
 const licenseData = require('./licenseData');
-const licenseTypeChoices = licenseData.licenseTypeChoices;
 
 // validate that user input is not an empty answer or just spaces
 function IsAnswerGivenNotEmpty (userInput) {
@@ -63,7 +62,7 @@ let questionSet = [
         type: 'list',
         name: 'licenseTypeDescription',
         message: 'What type of license will this project use? (Required)',
-        choices: licenseTypeChoices,
+        choices: licenseData.licenseTypeChoices,
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
 
