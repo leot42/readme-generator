@@ -1,0 +1,118 @@
+{
+    "Apache 2.0 License": {
+        "clickableBadgeIconlink": "[![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)",
+        "licenseTermsURL": "https://opensource.org/licenses/Apache-2.0"
+    },
+    "Boost Software License 1.0": {
+        "clickableBadgeIconlink": "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)",
+        "licenseTermsURL": "https://www.boost.org/LICENSE_1_0.txt"
+    },
+    "BSD 3-Clause License": {
+        "clickableBadgeIconlink": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-orange.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+        "licenseTermsURL": "https://opensource.org/licenses/BSD-3-Clause"
+    },
+    "Creative Commons 1.0": {
+        "clickableBadgeIconlink": "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)",
+        "licenseTermsURL": "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "Attribution 4.0 International": {
+        "clickableBadgeIconlink": "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)",
+        "licenseTermsURL": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "Attribution-ShareAlike 4.0 International": {
+        "clickableBadgeIconlink": "[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)",
+        "licenseTermsURL": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "Attribution-NonCommercial 4.0 International": {
+        "clickableBadgeIconlink": "[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)",
+        "licenseTermsURL": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    "Attribution-NoDerivates 4.0 International": {
+        "clickableBadgeIconlink": "[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)",
+        "licenseTermsURL": "https://creativecommons.org/licenses/by-nd/4.0/"
+    },
+    "Attribution-NonCommmercial-ShareAlike 4.0 International": {
+        "clickableBadgeIconlink": "[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)",
+        "licenseTermsURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "Attribution-NonCommercial-NoDerivatives 4.0 International": {
+        "clickableBadgeIconlink": "[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)]",
+        "licenseTermsURL": "https://opensource.org/licenses/EPL-1.0"
+    },
+    "Eclipse Public License 1.0": {
+        "clickableBadgeIconlink": "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)",
+        "licenseTermsURL": "https://www.gnu.org/licenses/gpl-3.0"
+    },
+    "GNU GPL v3": {
+        "clickableBadgeIconlink": "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+        "licenseTermsURL": ""
+    },
+    "GNU GPL v2": {
+        "clickableBadgeIconlink": "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)",
+        "licenseTermsURL": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
+    },
+    "GNU AGPL v3": {
+        "clickableBadgeIconlink": "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)",
+        "licenseTermsURL": "https://www.gnu.org/licenses/agpl-3.0"
+    },
+    "GNU LGPL v3": {
+        "clickableBadgeIconlink": "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)",
+        "licenseTermsURL": "https://www.gnu.org/licenses/lgpl-3.0"
+    },
+    "GNU FDL v1.3": {
+        "clickableBadgeIconlink": "[![License: FDL 1.3](https://img.shields.io/badge/License-FDL%20v1.3-blue.svg)](https://www.gnu.org/licenses/fdl-1.3)",
+        "licenseTermsURL": "https://www.gnu.org/licenses/fdl-1.3"
+    },
+    "IBM Public License Version 1.0": {
+        "clickableBadgeIconlink": "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)",
+        "licenseTermsURL": "https://opensource.org/licenses/IPL-1.0"
+    },
+    "ISC License (ISC)": {
+        "clickableBadgeIconlink": "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+        "licenseTermsURL": "https://opensource.org/licenses/ISC"
+    },
+    "The MIT License": {
+        "clickableBadgeIconlink": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        "licenseTermsURL": "https://opensource.org/licenses/MIT"
+    },
+    "Mozilla Public License 2.0": {
+        "clickableBadgeIconlink": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+        "licenseTermsURL": "https://opensource.org/licenses/MPL-2.0"
+    },
+    "Attribution License (BY)": {
+        "clickableBadgeIconlink": "[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)",
+        "licenseTermsURL": "https://opendatacommons.org/licenses/by/"
+    },
+    "Open Database License (ODbL)": {
+        "clickableBadgeIconlink": "[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)",
+        "licenseTermsURL": "https://opendatacommons.org/licenses/odbl/"
+    },
+    "Public Domain Dedication and License (PDDL)": {
+        "clickableBadgeIconlink": "[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)",
+        "licenseTermsURL": "https://opendatacommons.org/licenses/pddl/"
+    },
+    "The Perl License": {
+        "clickableBadgeIconlink": "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)",
+        "licenseTermsURL": "https://opensource.org/licenses/Artistic-2.0"
+    },
+    "The Artistic License 2.0": {
+        "clickableBadgeIconlink": "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)",
+        "licenseTermsURL": "https://opensource.org/licenses/Artistic-2.0"
+    },
+    "SIL Open Font License 1.1": {
+        "clickableBadgeIconlink": "[![License: Open Font-1.1](https://img.shields.io/badge/License-OFL%201.1-lightgreen.svg)](https://opensource.org/licenses/OFL-1.1)",
+        "licenseTermsURL": "https://opensource.org/licenses/OFL-1.1"
+    },
+    "The Unlicense": {
+        "clickableBadgeIconlink": "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)",
+        "licenseTermsURL": "http://unlicense.org/"
+    },
+    "Zlib": {
+        "clickableBadgeIconlink": "[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)",
+        "licenseTermsURL": "https://opensource.org/licenses/Zlib"
+    },
+    "The Do What the Fuck You Want to Public License": {
+        "clickableBadgeIconlink": "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)",
+        "licenseTermsURL": "http://www.wtfpl.net/about/)"
+    }
+}

@@ -1,4 +1,4 @@
-let badgeData = require('./src/modules/badges.js');
+let badgeData = require('./src/modules/licenseData.js');
 const inquirer = require('inquirer');
 const questionSet = require('./src/modules/questions');
 let userInterface = require('./src/modules/userInterface');
@@ -19,6 +19,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init(questionSet, fileDestination) {
+  // console.log(questionSet[0].choices);
   inquirer.prompt(questionSet).then((answers) => {
     generatedText = ReadMeTemplate(answers);
 
