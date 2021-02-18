@@ -1,8 +1,8 @@
 const licenseData = require('./licenseData');
 const questionCollection = require('../assets/questionCollection.json');
 // validate that user input is not an empty answer or just spaces
-function IsAnswerGivenNotEmpty (userInput) {
-  // console.log(`\nuser input is "${userInput}" and is empty evaluated to ${!(userInput === "")}`);
+
+function IsAnswerGivenNotEmpty(userInput) {
     if (!(userInput.trim() === "")) return true;
     else return "You must give an answer.";
 }
@@ -35,13 +35,6 @@ let questionSet = [
         type: 'editor',
         name: 'featuresDescription',
         message: 'What features does your project have?'
-    },
-
-    {
-        type: 'confirm',
-        name: 'tableOfContentsDescription',
-        message: 'Do you want the readme to have a table of contents? (Required)',
-        validate: (answer) => IsAnswerGivenNotEmpty(answer)
     },
 
     {
@@ -92,9 +85,5 @@ let questionSet = [
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     }
 ]
-
-// console.log(questionSet);
-//let questionMapCollection = questionSet.map((x) => {return [x.type, x.name, x.message, x.validate]})
-// console.log(questionCollection);
 
 module.exports = questionSet;

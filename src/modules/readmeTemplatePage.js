@@ -1,3 +1,4 @@
+// given the data for the page then populate the page
 function generateReadMeTemplate(data) {
 
     let template = `
@@ -33,7 +34,9 @@ ${data.testsDescription}
 
 ## Contact Me
 
-${data.yourEmail}
+[E-mail](https://${data.yourEmail})
+
+[Github](https://github.com/${data.gitHubUserName})
 
 ## Usage
 
@@ -43,7 +46,6 @@ ${data.usageDescription}
 ## Contributing
 
 ${data.contributionsDescription}
-
 
 ## Credits
 

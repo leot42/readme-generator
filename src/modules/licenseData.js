@@ -9,5 +9,5 @@ const licenseTypeCollection = require('../assets/licenseTypeCollection.json');
 licenseTypeChoices = Object.keys(licenseTypeCollection)
 
 let licenseData = {licenseTypeChoices, licenseTypeCollection}
-// console.log(licenseData);
+
 module.exports = licenseData;
