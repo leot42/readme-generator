@@ -1,4 +1,4 @@
-let badgeData = require('./src/modules/licenseData.js');
+const licenseData = require('./src/modules/licenseData.js');
 const inquirer = require('inquirer');
 const questionSet = require('./src/modules/questions');
 let userInterface = require('./src/modules/userInterface');
@@ -26,6 +26,9 @@ function writeToFile(fileName, data) {
 function init(questionSet, fileName) {
   // console.log(questionSet[0].choices);
   inquirer.prompt(questionSet).then((answers) => {
+    answers.clickableBadgeIconlink = licenseData.licenseTypeCollection[answers.licenseTypeDescription].clickableBadgeIconlink;
+    console.log(answers.licenseTypeDescription);
+    console.log(answers.clickableBadgeIconlink);
     generatedText = ReadMeTemplate(answers);
 
     writeToFile(fileName,generatedText);
