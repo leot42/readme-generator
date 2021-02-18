@@ -3,7 +3,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-An app to help speed along the repetive task of creating a readme.
+An app to help speed along the repetitive task of creating a readme.
 
 
 ## Table of Contents
