@@ -95,6 +95,6 @@ let questionSet = [
 
 // console.log(questionSet);
 let questionMapCollection = questionSet.map((x) => {return [x.type, x.name, x.message, x.validate]})
-console.log(questionCollection);
+// console.log(questionCollection);
 
 module.exports = questionSet;

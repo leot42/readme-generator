@@ -2,7 +2,7 @@
 node_modules/
 jspm_packages/
 package-lock.json
-src/assets/GeneratedFiles/
+src/assets/GeneratedFiles/*
 
 .DS_Store/
 
@@ -15,5 +15,6 @@ src/assets/GeneratedFiles/
 # dotenv environment variables file
 .env
 .vscode
+
 #prototyping
 #app-test.js
