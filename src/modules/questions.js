@@ -1,5 +1,5 @@
 const licenseData = require('./licenseData');
-
+const questionCollection = require('../assets/questionCollection.json');
 // validate that user input is not an empty answer or just spaces
 function IsAnswerGivenNotEmpty (userInput) {
   // console.log(`\nuser input is "${userInput}" and is empty evaluated to ${!(userInput === "")}`);
@@ -92,5 +92,9 @@ let questionSet = [
         validate: (answer) => IsAnswerGivenNotEmpty(answer)
     }
 ]
+
 // console.log(questionSet);
+let questionMapCollection = questionSet.map((x) => {return [x.type, x.name, x.message, x.validate]})
+// console.log(questionCollection);
+
 module.exports = questionSet;
