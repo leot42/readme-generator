@@ -34,9 +34,9 @@ ${data.testsDescription}
 
 ## Contact Me
 
-[E-mail](https://${data.yourEmail})
+By [E-mail](https://${data.yourEmail})
 
-[Github](https://github.com/${data.gitHubUserName})
+or by [Github](https://github.com/${data.gitHubUserName}).
 
 ## Usage
 

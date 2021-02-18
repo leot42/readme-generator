@@ -11,7 +11,7 @@ const generatedFileTypeSuffix = ".md";
 function writeToFile(fileName, data) {
 
   let filePath = `${fileDestination}/${fileName}${generatedFileTypeSuffix}`;
-  
+
   fs.writeFile(filePath, data, function (err) {
     if (err) throw err;
     console.log('Your readme was created in the GeneratedFiles folder.');

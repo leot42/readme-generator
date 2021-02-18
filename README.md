@@ -26,21 +26,13 @@ Requires node and the ability to use npm install to pull down the node dependenc
 
 ## Contact Me
 
-[E-mail](https://me@gmail.com)
-[Github](https://leo)
+By [E-mail](https://me@gmail.com)
+or by[Github](https://leo).
 
 ## Usage
 
 To use run the command "node app.js" within the project directory "src";
 
-
-## Contributing
-
-bybur
-
-## Credits
-
-hiout
 
 ## License
 
